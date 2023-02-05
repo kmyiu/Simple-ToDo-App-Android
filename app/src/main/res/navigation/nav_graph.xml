@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.kmyiu.simpletodoapp.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_addTaskFragment"
+            app:destination="@id/addTaskFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_editTaskFragment"
+            app:destination="@id/editTaskFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addTaskFragment"
+        android:name="com.kmyiu.simpletodoapp.AddTaskFragment"
+        android:label="AddTaskFragment" />
+    <fragment
+        android:id="@+id/editTaskFragment"
+        android:name="com.kmyiu.simpletodoapp.EditTaskFragment"
+        android:label="EditTaskFragment" >
+<!--        <argument-->
+<!--            android:name="todoTaskDataEdit"-->
+<!--            app:argType="com.kmyiu.simpletodoapp.TodoTaskData" />-->
+    </fragment>
+</navigation>

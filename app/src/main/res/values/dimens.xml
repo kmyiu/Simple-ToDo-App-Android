@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="big_padding">16dp</dimen>
+    <dimen name="min_height">48dp</dimen>
+    <dimen name="list_item_height">100dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="todoTitleTextSize">30sp</dimen>
+</resources>
